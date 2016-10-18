@@ -1,0 +1,178 @@
+html {
+	background-color: #EDF2C5;
+  width: 100%;
+  height: 100%;
+}
+body {
+	font-family: Tahoma, sans-serif;
+  /*padding-bottom: 10px;*/
+  color: #778A50;
+}
+
+header {
+
+	/*padding-bottom: 10px;*/
+
+
+}
+h1{	color: #778A50;
+  margin: 0px;
+  padding-right:439px;
+  float: left;
+font-size: 40pt;}
+
+.hdr a{  width: 25px;height: 25px;float: left;margin-right: 8px;margin-top: 38px;}
+.line{
+  width: 1px;
+  height:20px;
+  background-color:#778A50;
+  float: left;
+  margin-left: 2px;  margin-right: 2px;
+  margin-top: 40px;
+}
+button{
+	background-color:#EDF2C5;
+	border:1px solid #75874F;
+	border-radius:3px;
+	font-size: 10px;
+	text-align: center;
+	font-family: Arial Black,Arial;
+	color : #778A50;
+	float: left;
+	margin-left: 8px;
+	margin-top: 40px;
+ padding: 3px 9px 3px 9px; }
+
+ button:hover{
+border:1px solid red;
+	 color: red;}
+
+.site-nav{
+  margin-top:10px ;  margin-bottom:20px ;
+  width: 940px;
+  height:44px;
+  background-color: #889C5B;
+  border-radius : 3px;
+
+}
+  .site-nav ul{
+    margin:0;
+  /*  padding-top: 16px ;padding-left: 30px;上下16左右30*/
+  }
+  .site-nav li{
+    list-style:none;
+    float: left;
+    padding-top: 12px;padding-bottom: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+    .site-nav a{
+    display: block;/*what for*/
+    text-decoration: none;
+    color : #EDF2C5;
+    font-size: 16px;
+	font-family: Arial Black,Arial;
+  }
+	.site-nav a:hover{
+
+		color: darkgreen;}
+
+  article{ ;}
+  article a{
+    width: 940px;
+    height:448px;
+    margin-bottom:32px
+
+  }
+
+
+.container {
+	
+	padding: 50px 160px 0px 160px;
+	width: 1260px;
+  height: 940px;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+
+
+
+
+.area {
+padding-top: 32px;padding-bottom: 17px;
+}
+
+.main-area {
+	width: 444px;
+	height: 44px;
+	float: left;
+	margin-right: 52px;
+	background-color: #889C5B;
+  border-radius : 3px;
+	box-sizing: border-box;/*what for*/
+}
+
+.sidebar {
+	width: 444px;
+	height: 44px;
+	float: left;
+	background-color: #889C5B;
+  border-radius : 3px;
+	box-sizing: border-box;
+	/*font-size: 85%;*/
+}
+
+.area p{
+	color : #EDF2C5;
+	font-size: 16px;
+font-family: Arial Black,Arial;
+	padding-left: 31px;padding-top: 12px;padding-bottom: 16px;
+	margin:0px;/*為何不設這個會有預設margin???*/
+}
+.pic{
+	padding-bottom: 17px;
+}
+	.pic a{
+	    width: 140px;
+      height: 140px;
+	    float: left;
+		  padding-right: 12px}
+	.box{
+		float: left;
+		width: 440px;
+		height: 140px;
+		background-color: #F5F8B9;
+		margin-left: 40px;
+	}
+	.pic p{
+		margin:0px;/*為何不設這個會有預設margin???*/
+		font-size: 12px;
+		font-family:Arial;
+		color: #898989;
+		padding-left: 15px;
+		padding-top: 15px;
+
+	}
+.line2{
+margin-top: 15px;margin-left: 15px;;
+width: 413px;
+height: 1px;
+background-color: #898989;
+
+}
+
+footer {
+	text-align: center;
+	font-size: 12px;
+	color: #EDF2C5;
+	padding:24px 463px 24px 463px;
+	background-color: #889C5B;
+
+}
+
+.clear:after {
+	content:"";
+	display: block;
+	clear: both;
+}
